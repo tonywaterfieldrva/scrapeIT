@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>ScrapeIT Mongoose<title>
+		<meta charset="UTF-8">
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    {{!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+        integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+        crossorigin="anonymous"></script> --}}
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="../assets/css/style.css">
+	</head>
+	<body>
+		{{> nav/navbar}}
+		<main>
+			<div class="container">
+				{{{ body }}}
+			</div>
+		</main>
+		{{> footer}}
+		
+	{{!-- Add in jQuery --}}
+	<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+	<script src="/assets/js/scrape.js"></script>
+	</body>
+</html>
