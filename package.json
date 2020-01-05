@@ -1,0 +1,26 @@
+{
+  "name": "express",
+  "version": "1.0.0",
+  "description": "Scrape bootcamp assignment",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tonywaterfieldrva/scrapeIT.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tonywaterfieldrva/scrapeIT/issues"
+  },
+  "homepage": "https://github.com/tonywaterfieldrva/scrapeIT#readme",
+  "dependencies": {
+    "axios": "^0.19.0",
+    "cheerio": "^1.0.0-rc.3",
+    "express-handlebars": "^3.1.0",
+    "mongoose": "^5.8.4"
+  },
+  "devDependencies": {}
+}
