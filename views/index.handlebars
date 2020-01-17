@@ -7,12 +7,12 @@
 </div>
 <div class="row">
     <div class="col-md-3"></div>
-    <div class="col-md-7 left-align">
-        {{ #each article}}
+    <div class="col-md-7">
+        {{ #each article }}
         <div class="card-panel">
             <h5 {{this.title}}></h5> 
             <a href="/readArticle/{{this.id}}" class="waves-effect waves-light btn">Read</a>
         </div>
-        {{/each}}
+        {{/each }}
     </div>
 </div>
